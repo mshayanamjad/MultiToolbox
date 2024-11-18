@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo"><a href="index.html">Calculator</a></div>
+      <nav id="navigation" class="navigation">
+        <div class="hamburger" id="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="nav-list" id="navList">
+          <div class="close_hamburger" id="close_hamburger">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="unit.html" class="nav-link">Unit Conversion</a></li>
+          <li><a href="css-unit.html" class="nav-link">Css Units</a></li>
+          <li><a href="bmi.html" class="nav-link">BMI</a></li>
+          <li><a href="bmi.html" class="nav-link">Password Generator</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content-body">
+      <div class="container">
+        <div class="inner-container">
+          <input type="text" id="display" disabled />
+          <div class="row">
+            <button class="button special">AC</button>
+            <button class="button special">CE</button>
+            <button class="button special">√</button>
+            <button class="button special">%</button>
+          </div>
+          <div class="row">
+            <button class="button number">7</button>
+            <button class="button number">8</button>
+            <button class="button number">9</button>
+            <button class="button operator">&#247;</button>
+          </div>
+          <div class="row">
+            <button class="button number">4</button>
+            <button class="button number">5</button>
+            <button class="button number">6</button>
+            <button class="button operator">&#215;</button>
+          </div>
+          <div class="row">
+            <button class="button number">1</button>
+            <button class="button number">2</button>
+            <button class="button number">3</button>
+            <button class="button operator">&#8722;</button>
+          </div>
+          <div class="row">
+            <button class="button number">0</button>
+            <button class="button number">.</button>
+            <button class="button number">=</button>
+            <button class="button operator">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
